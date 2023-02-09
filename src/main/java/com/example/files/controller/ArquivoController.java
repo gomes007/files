@@ -7,7 +7,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("/arquivos")
-@CrossOrigin("*")
 public class ArquivoController {
 
     private final ArquivoService arquivoService;
